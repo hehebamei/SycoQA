@@ -8,26 +8,46 @@ Sycophantic hallucination refers to a specific failure mode in which an LLM prod
 
 To facilitate systematic research on this problem, **SycoQA** provides a unified dataset for controlled evaluation of sycophantic behavior across multiple tasks and induction paradigms.
 
+---
+
 ## Examples
 
-<img width="830" height="788" alt="image" src="https://github.com/user-attachments/assets/8420b0cb-dfb5-4b01-a666-76739dccab79" />
-<img width="824" height="556" alt="image" src="https://github.com/user-attachments/assets/95affbc1-456a-40de-81df-582b27f83a66" />
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/8420b0cb-dfb5-4b01-a666-76739dccab79" width="82%" />
+</p>
 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/95affbc1-456a-40de-81df-582b27f83a66" width="82%" />
+</p>
+
+---
 
 ## Results
-# Baseline Validation on the Core Subset
-<img width="816" height="622" alt="image" src="https://github.com/user-attachments/assets/cc61ba85-316e-41fe-8a70-d5e6938ce263" />
-# Baseline Validation on the Extension Subset
-<img width="756" height="606" alt="image" src="https://github.com/user-attachments/assets/f9741751-76aa-4eba-b93c-b1971594157a" />
-# Sycophantic Hallucination Detection: A Case Study
-<img width="830" height="492" alt="image" src="https://github.com/user-attachments/assets/0142f63e-73f9-42df-bf45-7b8b64001435" />
-<img width="808" height="464" alt="image" src="https://github.com/user-attachments/assets/ed9ea716-c111-4aa0-8504-b63183baa7e3" />
-<img width="812" height="462" alt="image" src="https://github.com/user-attachments/assets/b4ed29e7-27f6-4974-958d-a27d899f1f13" />
-<img width="792" height="456" alt="image" src="https://github.com/user-attachments/assets/38ccc783-bd39-4085-b25d-549f81b6844f" />
 
+### Baseline Validation on the Core Subset
 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/cc61ba85-316e-41fe-8a70-d5e6938ce263" width="82%" />
+</p>
 
+### Baseline Validation on the Extension Subset
 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/f9741751-76aa-4eba-b93c-b1971594157a" width="76%" />
+</p>
+
+### Sycophantic Hallucination Detection: A Case Study
+
+<table align="center">
+  <tr>
+    <td align="center"><img src="https://github.com/user-attachments/assets/0142f63e-73f9-42df-bf45-7b8b64001435" width="380"/></td>
+    <td align="center"><img src="https://github.com/user-attachments/assets/ed9ea716-c111-4aa0-8504-b63183baa7e3" width="380"/></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="https://github.com/user-attachments/assets/b4ed29e7-27f6-4974-958d-a27d899f1f13" width="380"/></td>
+    <td align="center"><img src="https://github.com/user-attachments/assets/38ccc783-bd39-4085-b25d-549f81b6844f" width="380"/></td>
+  </tr>
+</table>
 
 ---
 
