@@ -8,60 +8,27 @@ Sycophantic hallucination refers to a specific failure mode in which an LLM prod
 
 To facilitate systematic research on this problem, **SycoQA** provides a unified dataset for controlled evaluation of sycophantic behavior across multiple tasks and induction paradigms.
 
+## Examples
 
-## Benchmark Design
+<img width="830" height="788" alt="image" src="https://github.com/user-attachments/assets/8420b0cb-dfb5-4b01-a666-76739dccab79" />
+<img width="824" height="556" alt="image" src="https://github.com/user-attachments/assets/95affbc1-456a-40de-81df-582b27f83a66" />
 
-SycoQA is organized under a shared QA-style interface and supports multiple settings for evaluating sycophantic failures.
 
-### 1. Context-independent setting
+## Results
+# Baseline Validation on the Core Subset
+<img width="816" height="622" alt="image" src="https://github.com/user-attachments/assets/cc61ba85-316e-41fe-8a70-d5e6938ce263" />
+# Baseline Validation on the Extension Subset
+<img width="756" height="606" alt="image" src="https://github.com/user-attachments/assets/f9741751-76aa-4eba-b93c-b1971594157a" />
+# Sycophantic Hallucination Detection: A Case Study
+<img width="830" height="492" alt="image" src="https://github.com/user-attachments/assets/0142f63e-73f9-42df-bf45-7b8b64001435" />
+<img width="808" height="464" alt="image" src="https://github.com/user-attachments/assets/ed9ea716-c111-4aa0-8504-b63183baa7e3" />
+<img width="812" height="462" alt="image" src="https://github.com/user-attachments/assets/b4ed29e7-27f6-4974-958d-a27d899f1f13" />
+<img width="792" height="456" alt="image" src="https://github.com/user-attachments/assets/38ccc783-bd39-4085-b25d-549f81b6844f" />
 
-This setting evaluates whether a model changes its answer under misleading user cues **without external evidence**. It tests whether the model abandons an internally available correct judgment.
-
-### 2. Context-dependent setting
-
-This setting evaluates whether a model follows misleading user interpretations **even when explicit local evidence is provided in the context**. It is used to test grounded sycophantic hallucination, where the model may ignore evidence and align with the user instead.
-
-### 3. Progressive induction paradigm
-
-SycoQA supports multiple induction levels with **increasing sycophantic pressure**, such as:
-
-* Misleading statement induction
-* fabricated supporting details
-* authority-based framing
-* reasoning-based false justification
-
-This design enables fine-grained analysis of how model behavior shifts under progressively stronger user-induced pressure.
-
-## Repository Structure
-
-```text
-SycoQA/
-├── Data/                         # Datasets and processed samples
-├── Evaluation/                   # Evaluation scripts and outputs
-├── Scripts/                      # Utility scripts for running experiments
-├── Data_generation_Prompt.py     # Prompt templates or generation utilities
-├── Ha_inference.py               # Inference pipeline
-├── Ha_main.py                    # Main entry for experiments
-├── config_pool.py                # Configuration settings
-├── prompt_pool.py                # Prompt templates / induction pool
-├── score.py                      # Scoring and metric computation
-├── requirements.txt              # Python dependencies
-└── README.md
-```
-
-## Installation
-
-Clone the repository and install dependencies:
-
-```bash
-git clone https://github.com/hehebamei/SycoQA.git
-cd SycoQA
-pip install -r requirements.txt
-```
 
 
 
 
 ---
 
-**SycoQA** is intended to serve as a standardized testbed for understanding and evaluating sycophantic hallucinations in LLMs.
+**SycoQA** is intended to serve as a dataset for understanding and evaluating sycophantic hallucinations in LLMs.
