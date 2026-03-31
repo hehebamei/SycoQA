@@ -12,13 +12,16 @@ To facilitate systematic research on this problem, **SycoQA** provides a unified
 
 ## Examples
 
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/8420b0cb-dfb5-4b01-a666-76739dccab79" width="82%" />
-</p>
-
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/95affbc1-456a-40de-81df-582b27f83a66" width="82%" />
-</p>
+<table align="center">
+  <tr>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/8420b0cb-dfb5-4b01-a666-76739dccab79" width="420"/>
+    </td>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/95affbc1-456a-40de-81df-582b27f83a66" width="420"/>
+    </td>
+  </tr>
+</table>
 
 ---
 
@@ -27,13 +30,13 @@ To facilitate systematic research on this problem, **SycoQA** provides a unified
 ### Baseline Validation on the Core Subset
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/cc61ba85-316e-41fe-8a70-d5e6938ce263" width="82%" />
+  <img src="https://github.com/user-attachments/assets/cc61ba85-316e-41fe-8a70-d5e6938ce263" width="560" />
 </p>
 
 ### Baseline Validation on the Extension Subset
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/f9741751-76aa-4eba-b93c-b1971594157a" width="76%" />
+  <img src="https://github.com/user-attachments/assets/f9741751-76aa-4eba-b93c-b1971594157a" width="520" />
 </p>
 
 ### Sycophantic Hallucination Detection: A Case Study
