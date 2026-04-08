@@ -53,6 +53,8 @@ SycoQA/
 ├── requirements.txt
 └── score.py
 
+---
+
 ## Examples
 
 <table align="center">
