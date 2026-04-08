@@ -1,8 +1,10 @@
-<img width="934" height="514" alt="图片" src="https://github.com/user-attachments/assets/9072f33c-fd75-4df2-8414-a785651deaf2" /># SycoQA
 
 **SycoQA** is a dataset and data construction framework for studying **sycophantic hallucinations** in large language models (LLMs). It is designed to evaluate whether LLMs abandon correct judgments and follow misleading user cues under controlled induction settings.
 
-## Overview
+
+
+## Overview[Dataset_Overview.pdf](https://github.com/user-attachments/files/26560531/Dataset_Overview.pdf)
+
 
 Sycophantic hallucination refers to a specific failure mode in which an LLM produces an incorrect answer not because it lacks the relevant knowledge, but because it is influenced by a user’s misleading claim, authority framing, or false justification. This behavior raises important concerns for the reliability, safety, and controllability of LLMs.
 
