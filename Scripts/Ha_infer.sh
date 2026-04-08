@@ -1,6 +1,6 @@
 #!/bin/bash
 
-export PROJECT_PATH="/data/shangguanzx/project/ISF-master"
+export PROJECT_PATH=""
 export CUDA_VISIBLE_DEVICES="7"
 
 model_name="Llama-3-8B-Instruct"
