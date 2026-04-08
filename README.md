@@ -4,7 +4,7 @@
 
 ## Overview
 
-[Dataset Overview PDF](https://github.com/user-attachments/files/26560531/Dataset_Overview.pdf)
+<img width="1720" height="1030" alt="96242cdb-f49e-48da-8c0a-8031ce881113" src="https://github.com/user-attachments/assets/654ffc5e-8e98-4375-b11b-6d10c9d73794" />
 
 Sycophantic hallucination refers to a specific failure mode in which an LLM produces an incorrect answer not because it lacks the relevant knowledge, but because it is influenced by a user's misleading claim, authority framing, or false justification. This behavior raises important concerns for the reliability, safety, and controllability of LLMs.
 
@@ -232,4 +232,9 @@ Although the field names vary slightly across files, each instance can be unders
 
 ---
 
-**SycoQA** is intended to serve as a dataset for understanding and evaluating sycophantic hallucinations in LLMs.
+## License
+
+This project is released under the [MIT License](./LICENSE).
+
+Copyright (c) 2026 
+
