@@ -10,6 +10,49 @@ To facilitate systematic research on this problem, **SycoQA** provides a unified
 
 ---
 
+## Dataset Structure
+
+SycoQA consists of two complementary subsets for evaluating sycophantic hallucinations in large language models under controlled induction settings:
+
+- **Core subset**: evaluates **context-independent sycophantic hallucinations**, where the model is expected to answer correctly based on its internal knowledge, but may abandon correct judgments under misleading user cues.
+- **Extension subset**: evaluates **context-dependent sycophantic hallucinations**, where the model is provided with relevant context, but may still ignore the local evidence when exposed to distorted or biased user framing.
+
+The Core subset covers multiple capability domains, including:
+- mathematical reasoning
+- commonsense reasoning
+- factual knowledge
+- language understanding / reading comprehension
+
+The Extension subset focuses on evidence-grounded sentiment understanding with contextual distortion.
+
+---
+
+## Repository Structure
+
+```text
+SycoQA/
+├── Data/
+│   ├── IMDB.jsonl
+│   ├── Yelp.jsonl
+│   ├── belebele.jsonl
+│   ├── commonsenseqa.jsonl
+│   ├── gsm2k8k.jsonl
+│   ├── mmlu.jsonl
+│   └── load_data.py
+├── Evaluation/
+│   ├── eval.py
+│   └── match.py
+├── Scripts/
+│   ├── Ha_infer.sh
+│   └── llm_infer.sh
+├── Data_generation_Prompt.py
+├── Ha_inference.py
+├── Ha_main.py
+├── config_pool.py
+├── prompt_pool.py
+├── requirements.txt
+└── score.py
+
 ## Examples
 
 <table align="center">
