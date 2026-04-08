@@ -1,4 +1,4 @@
-# SycoQA
+<img width="934" height="514" alt="图片" src="https://github.com/user-attachments/assets/9072f33c-fd75-4df2-8414-a785651deaf2" /># SycoQA
 
 **SycoQA** is a dataset and data construction framework for studying **sycophantic hallucinations** in large language models (LLMs). It is designed to evaluate whether LLMs abandon correct judgments and follow misleading user cues under controlled induction settings.
 
@@ -27,6 +27,12 @@ The Extension subset focuses on evidence-grounded sentiment understanding with c
 
 ---
 
+## Dataset Statistics
+
+<img width="934" height="514" alt="5922d1f5-29e0-4e53-8427-4dd0a147e477" src="https://github.com/user-attachments/assets/2a3329ef-14cb-4bca-b83b-550866f24f95" />
+
+
+
 ## Repository Structure
 
 ```text
@@ -52,6 +58,7 @@ SycoQA/
 ├── prompt_pool.py
 ├── requirements.txt
 └── score.py
+```
 
 ---
 
